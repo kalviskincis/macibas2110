@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smieklīgo paroļu ģenerators</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Smieklīgo paroļu ģenerators</h1>
+        <form>
+            <label for="ciparuSkaits">Cik ciparus parolē vēlies:</label>
+            <input type="number" id="ciparuSkaits" name="ciparuSkaits" size="4"><br>
+            <label for="paroluSkaits">Cik parles ģenerēt:</label>
+            <input type="number" id="paroluSkaits" name="paroluSkaits" size="2"><br>
+            <label for="ieklaut">Parolē iekļaut vārdu</label>
+            <input type="text" id="ieklaut" name="ieklaut"><br>
+        </form>
+
+
+        <input type="button" value="Ģenerēt" onclick="generet()">
+        <table>
+            <thead>
+                <tr>
+                    <td>Nr.</td>
+                    <td>Parole</td>
+                </tr>
+
+            </thead>
+            <tbody class="rindas">
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+
+    </div>
+    <script src='paroles.js'></script>
+</body>
+
+</html>
